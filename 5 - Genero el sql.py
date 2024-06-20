@@ -41,4 +41,9 @@ output_file_path = 'z5_cotizaciones_mensuales_insert.sql'
 with open(output_file_path, 'w') as file:
     file.write(sql_script)
 
+# Lo copio en c:\Users\baran\OneDrive\Público para su importación desde phpadmin
+output_file_path = 'c:/Users/baran/OneDrive/Público/z5_cotizaciones_mensuales_insert.sql'
+with open(output_file_path, 'w') as file:
+    file.write(sql_script)
+
 print(f"SQL script generated and saved to {output_file_path}")

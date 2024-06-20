@@ -31,7 +31,8 @@ meses = {
 }
 
 # Crear la columna 'Ord' con valores incrementales
-df['Ord'] = range(1, len(df) + 1)
+# df['Ord'] = range(1, len(df) + 1)
+df['Ord'] = range(len(df), 0, -1)
 
 # Crear la columna 'mMes'
 df['mMes'] = df.apply(lambda row: f"{meses[row['Mes']]}-{str(row['Año'])[-2:]}", axis=1)
