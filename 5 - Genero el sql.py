@@ -42,7 +42,7 @@ with open(output_file_path, 'w') as file:
     file.write(sql_script)
 
 # Lo copio en c:\Users\baran\OneDrive\Público para su importación desde phpadmin
-output_file_path = 'c:/Users/baran/OneDrive/Público/z5_cotizaciones_mensuales_insert.sql'
+output_file_path = 'c:/Users/baran/OneDrive/Público/SQL_Cotizaciones_Mensuales.sql'
 with open(output_file_path, 'w') as file:
     file.write(sql_script)
 
